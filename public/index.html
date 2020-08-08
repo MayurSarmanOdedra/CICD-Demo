@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Calc Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/src/app.js"></script>
+</head>
+<body id="body">
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <img src="calc.png" alt="calc Image">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="value1" placeholder="value1 here..." />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="value2" placeholder="value2 here..." />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="finalresult">?</span>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td class="actions">
+                    <button id="add" type="button" onclick="calc(this.id)"> + </button>
+                </td>
+                <td class="actions">
+                    <button id="mul" type="button" onclick="calc(this.id)"> * </button>
+                </td>
+                <td class="actions">
+                    <button id="div" type="button" onclick="calc(this.id)"> / </button>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <img id="puppy" src="pug.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>

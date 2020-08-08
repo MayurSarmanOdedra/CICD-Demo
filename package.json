@@ -1,0 +1,17 @@
+{
+  "name": "calcapp",
+  "version": "1.0.0",
+  "description": "Basic web app, used as a calculator. It uses Continuos Integration.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack src/app.js -o public/bundle.js"
+  },
+  "author": "Mayur Sarman Odedra",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

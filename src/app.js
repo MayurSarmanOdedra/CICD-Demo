@@ -48,7 +48,7 @@ const multiply = (value1, value2) => {
 }
 //dividel
 const divide = (value1, value2) => {
-    finalResult = parseFloat(value1) / parseFloat(value2)
+    finalResult = parseFloat(value1) * parseFloat(value2)
     document.getElementById('finalresult').innerText = finalResult
     document.getElementById('puppy').src = '/public/pug.jpg'
     return finalResult

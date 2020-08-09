@@ -43,7 +43,7 @@ const addition = (value1, value2) => {
 }
 
 const multiply = (value1, value2) => {
-    finalResult = parseFloat(value1) * parseFloat(value2)
+    finalResult = parseFloat(value1) + parseFloat(value2)
     return finalResult
 }
 //dividel

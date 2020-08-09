@@ -31,26 +31,24 @@ function calc(clickedId) {
             }
         } catch (error) {
             console.log(error)
+        }finally{
+            document.getElementById('finalresult').value = finalResult;
         }
     }
 }
 
 const addition = (value1, value2) => {
     finalResult = parseFloat(value1) + parseFloat(value2)
-    document.getElementById('finalresult').innerText = finalResult
     return finalResult
 }
 
 const multiply = (value1, value2) => {
     finalResult = parseFloat(value1) * parseFloat(value2)
-    document.getElementById('finalresult').innerText = finalResult
     return finalResult
 }
 //dividel
 const divide = (value1, value2) => {
-    finalResult = parseFloat(value1) * parseFloat(value2)
-    document.getElementById('finalresult').innerText = finalResult
-    document.getElementById('puppy').src = '/public/pug.jpg'
+    finalResult = parseFloat(value1) / parseFloat(value2)
     return finalResult
 }
 

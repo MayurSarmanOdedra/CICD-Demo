@@ -4,7 +4,7 @@ function calc(clickedId) {
     var number1 = document.getElementById("value1").value
     var number2 = document.getElementById("value2").value
     
-    
+   
     if(!number1 || !number2){
         alert('Null Values are passed!')
     }else {
